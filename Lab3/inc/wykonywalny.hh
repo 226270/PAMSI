@@ -13,12 +13,12 @@ class runnable {
 	
 public:
 	
-	runnable();
-	virtual ~runnable();
-	virtual void writeElem(unsigned int Index, int Value);
-	virtual int readElem(unsigned int Index);
-	virtual void doAlgorithm(unsigned int Amount);
-	virtual void neutralise();
+	//runnable() {}
+	//virtual ~runnable() = 0;
+	virtual void writeElem(unsigned int Index, int Value) = 0;
+	virtual int readElem(unsigned int Index) = 0;
+	virtual void doAlgorithm(unsigned int Amount) = 0;
+	virtual void neutralise() = 0;
 	
 };
 

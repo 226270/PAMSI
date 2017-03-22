@@ -17,11 +17,11 @@ array::~array() {
 }
 
 // Funkcja powiekszajaca tablice
-int array::extend_array(unsigned int Amount) {
+void array::extend_array(unsigned int Amount) {
 	
 	int *Buffor = new int[Amount];
 	
-	for (int i = 0; i < Size; ++i) {
+	for (unsigned int i = 0; i < Size; ++i) {
 		Buffor[i] = Array[i];
 	}
 	
@@ -36,16 +36,14 @@ int array::extend_array(unsigned int Amount) {
 // funkcje powiekszajaca tablice
 // UWAGA! Zaleznosc miedzy nowym a starym rozmiarem wpisac zgodnie
 // z przyjetym algorytmem
-int array::writeElem(unsigned int Index, int Value) {
+void array::writeElem(unsigned int Index, int Value) {
 	
 	if (Index < Size) {
 		Array[Index] = Value;
-		return 0;
 	}
 	else {
 		extend_array(Size+1);
 		Array[Index] = Value;
-		return 0;
 	}
 	
 }
@@ -67,7 +65,7 @@ int array::readElem(unsigned int Index) {
 
 void array::doAlgorithm(unsigned int Amount) {
 
-	for (int i = 0; i < Amount; ++i) {
+	for (unsigned int i = 0; i < Amount; ++i) {
 
 		writeElem(i, VALUE);
 

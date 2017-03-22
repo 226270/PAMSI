@@ -12,7 +12,7 @@ class array : public runnable {
 	int *Array;                       // wskaznik na tablice
 	unsigned int Size;                // rozmiar tablicy
 
-	int extend_array(unsigned int Amount);
+	void extend_array(unsigned int Amount);
 
 public:
 	
