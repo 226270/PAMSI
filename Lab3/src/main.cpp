@@ -6,9 +6,9 @@
 
 int main() {
 	
-	unsigned int Amount = 0;
-	unsigned int Repeat = 0;
-	char Help;
+	unsigned int Amount = 0;                 // wielkosc problemu
+	unsigned int Repeat = 0;                 // ilosc powtorzen
+	char Help;                               // zmienna pomocnicza do menu
 	
 	stopwatch Stoper;
 	array Object(START);

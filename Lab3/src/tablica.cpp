@@ -62,7 +62,7 @@ int array::readElem(unsigned int Index) {
 	
 }
 
-
+// Funkcja wykonujaca algorytm dla zadanej wielkosci problemu
 void array::doAlgorithm(unsigned int Amount) {
 
 	for (unsigned int i = 0; i < Amount; ++i) {
@@ -73,6 +73,7 @@ void array::doAlgorithm(unsigned int Amount) {
 
 }
 
+// Funkcja zerujaca obiekt do stanu poczatkowego
 void array::neutralise() {
 
 	delete [] Array;

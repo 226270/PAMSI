@@ -13,7 +13,7 @@ class stopwatch {
 	unsigned int Amount;               // rozmiar problemu
 	unsigned int Repeat;               // ilosc pomiarow
 	double AverageTime;                // sredni czas
-	double *pTime;                     // tablica do zapisu czasow
+	double *pTime = NULL;              // tablica do zapisu czasow
 	
 public:
 

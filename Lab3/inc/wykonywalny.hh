@@ -14,8 +14,6 @@ class runnable {
 	
 public:
 	
-	//runnable() {}
-	//virtual ~runnable() = 0;
 	virtual void writeElem(unsigned int Index, int Value) = 0;
 	virtual int readElem(unsigned int Index) = 0;
 	virtual void doAlgorithm(unsigned int Amount) = 0;
