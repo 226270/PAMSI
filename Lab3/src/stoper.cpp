@@ -9,8 +9,8 @@ stopwatch::~stopwatch() {
 
 void stopwatch::measureTime(runnable &Item, unsigned int Num1, unsigned int Num2) {
 
-	int Begin;
-	int End;
+	clock_t Begin;
+	clock_t End;
 
 	Amount = Num1;
 	Repeat = Num2;
@@ -21,7 +21,7 @@ void stopwatch::measureTime(runnable &Item, unsigned int Num1, unsigned int Num2
 		Begin = clock();
 		Item.doAlgorithm(Amount);
 		End = clock();
-		pTime[i] = ( End - Begin ) / CLOCKS_PER_SEC;
+		pTime[i] = static_cast <double> (End - Begin) / CLOCKS_PER_SEC;
 		Item.neutralise();
 
 	}

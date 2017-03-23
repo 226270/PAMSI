@@ -9,6 +9,7 @@
 #define START 10                       // poczatkowy rozmiar tablicy
 #define VALUE 1                        // wartosc wypelnienia
 
+
 class runnable {
 	
 public:

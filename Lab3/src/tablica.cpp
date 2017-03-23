@@ -75,8 +75,8 @@ void array::doAlgorithm(unsigned int Amount) {
 
 void array::neutralise() {
 
-	Size = START;
 	delete [] Array;
+	Size = START;
 	Array = new int[Size]; 
 
 }
