@@ -2,8 +2,6 @@
 // Podejscie obiektowe
 
 #include "stoper.hh"
-#define START 10                       // poczatkowy rozmiar tablicy
-#define VALUE 1                        // wartosc wypelnienia
 
 
 int main() {
