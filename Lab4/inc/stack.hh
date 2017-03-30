@@ -12,13 +12,7 @@ class stack : public iStack,
 			: public iStopwatch {
 	
 	int Size;
-	int *Top;
-
-	unsigned int Repeat;               // ilosc pomiarow
-	double AverageTime;                // sredni czas
-	double *pTime;              // tablica do zapisu czasow
-	clock_t Begin;
-	clock_t End;
+	element *Top;
 
 };
 
@@ -26,7 +20,7 @@ class stack : public iStack,
 class element {
 
 	int Amount;
-	int *Prev;
+	element *Prev;
 
 };
 
