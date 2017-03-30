@@ -11,7 +11,7 @@ class iStack {
 public:
 
 	virtual void push(int Element) = 0;
-	virtual void remove() = 0;
+	virtual void pop() = 0;
 	virtual int size() = 0;
 	
 };
