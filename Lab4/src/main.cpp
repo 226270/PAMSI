@@ -4,6 +4,7 @@
 #include "Stopwatch.hh"
 #include "Stack.hh"
 #include "List.hh"
+#include "Queue.hh"
 
 
 int main() {

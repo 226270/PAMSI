@@ -10,9 +10,9 @@ class iQueue {
 	
 public:
 
-	virtual void enqueue(int Element) = 0;
+	virtual void enqueue(int element) = 0;
 	virtual void dequeue() = 0;
-	virtual int size() = 0;
+	virtual unsigned long int size() = 0;
 	
 };
 
