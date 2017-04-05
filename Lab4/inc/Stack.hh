@@ -11,31 +11,33 @@
 
 class Element {
 
-	int _amount;
+	int _amount = 0;
 	Element *_pPrev = NULL;
 
 public:
 
-	Element(int, Element);
+	Element(int, Element*);
 	~Element();
 	int readElement();
+	Element* readPointer();
 
 };
 
 
 class Stack : public iStack, public iRunnable {
 	
-	int _size;
+	unsigned long int _size = 0;
 	Element *_pTop = NULL;
 
 public:
 
 	~Stack();
+	int find(int);
 	virtual int top();
 	virtual int size();
 	virtual void push(int);
 	virtual void pop();
-	virtual void doAlgorithm(unsigned int);
+	virtual void doAlgorithm(unsigned long int);
 	virtual void neutralise();
 
 };

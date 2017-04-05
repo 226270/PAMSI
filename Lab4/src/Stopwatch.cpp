@@ -2,7 +2,7 @@
 
 
 // Konstruktor
-Stopwatch::Stopwatch(unsigned int num1, unsigned int num2) {
+Stopwatch::Stopwatch(unsigned long int num1, unsigned int num2) {
 
 	_amount = num1;
 	_repeat = num2;
@@ -23,12 +23,16 @@ void Stopwatch::measureTime(iRunnable &item) {
 	clock_t begin;                   // poczatkowa ilosc cykli zegara
 	clock_t end;                     // koncowa ilosc cykli zegara
 
-	for (unsigned int i = 0; i < _repeat; ++i) {
+	for (unsigned long int i = 0; i < _repeat; ++i) {
 
 		begin = clock();
+		std::cout<<"0";
 		item.doAlgorithm(_amount);
+		std::cout<<"1";
 		end = clock();
+		std::cout<<"2";
 		_pTime[i] = static_cast <double> (end - begin) / CLOCKS_PER_SEC;
+		std::cout<<"3";
 		item.neutralise();
 
 	}
@@ -38,7 +42,7 @@ void Stopwatch::measureTime(iRunnable &item) {
 // Funkcja wyliczajaca sredni czas
 void Stopwatch::countAverage() {
 
-	for (unsigned int i = 0; i < _repeat; ++i) {
+	for (unsigned long int i = 0; i < _repeat; ++i) {
 
 		_averageTime += _pTime[i];
 

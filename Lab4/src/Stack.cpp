@@ -1,12 +1,11 @@
 #include "Stack.hh"
 
 
-
 // Konstruktor
-Element::Element(int num1, Element p) {
+Element::Element(int num, Element* p) {
 
-	_amount = num1;
-	_pPrev = &p;
+	_amount = num;
+	_pPrev = p;
 
 }
 
@@ -24,6 +23,13 @@ int Element::readElement() {
 
 }
 
+// Funkcja dostepu do wskaznika
+Element* Element::readPointer() {
+
+	return _pPrev;
+
+}
+
 
 
 // Destruktor
@@ -33,7 +39,33 @@ Stack::~Stack() {
 
 }
 
-// Funkcja zwracajaca wartosc ostatniego elementu
+// Funkcja wyszukujaca
+int Stack::find(int num) {
+
+	unsigned long int help = 0;
+
+	do{
+
+		++help;
+		if(_pTop->readElement() == num) {
+
+			return help;
+
+		}
+
+		else {
+
+			pop();
+
+		}
+
+	} while(help < _size);
+
+	return help;
+
+}
+
+// Funkcja zwracajaca wartosc gornego elementu
 int Stack::top() {
 
 	return _pTop->readElement();
@@ -48,41 +80,47 @@ int Stack::size() {
 }
 
 // Funkcja kladaca element na stosie
-void Stack::push(int num1) {
+void Stack::push(int num) {
 
-	Element top(num1, *_pTop);
-	_pTop = &top;
+	Element *newElement = new Element(num, _pTop);
+	_pTop = newElement;
+	++_size;
 
 }
 
-// Funkcja sciagajaca elemnt ze stosu
+// Funkcja sciagajaca element ze stosu
 void Stack::pop() {
 
-//	if(!_pTop) {
-//
-//		Element *temp;
-//		temp = _pTop;
-//		_pTop = _pTop.(_pPrev);
-//		delete temp;
-//
-//	}
-//
-//	else {
-//
-//		std::cout << "BLAD! Stos jest pusty.";
-//	
-//	}
+	if(_pTop != NULL) {
+
+		Element *temp;
+		temp = _pTop;
+		_pTop = _pTop->readPointer();
+		delete temp;
+
+	}
+
+	else {
+
+		std::cout << "BLAD! Stos jest pusty.\n";
+	
+	}
 
 }
 
+
 // Algorytm
-void Stack::doAlgorithm(unsigned int amount) {
+void Stack::doAlgorithm(unsigned long int amount) {
 
-	for(unsigned int i = 0; i < amount; ++i) {
+	push(0);
 
-		push(i);
+	for(unsigned long int i = 1; i < amount; ++i) {
+
+		push(1);
 
 	}
+
+	std::cout << _size << std::endl;// << find(0) << std::endl;
 
 }
 

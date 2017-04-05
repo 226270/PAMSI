@@ -12,14 +12,14 @@
 
 class Stopwatch : public iStopwatch {
 
-	unsigned int _amount;               // rozmiar problemu
+	unsigned long int _amount;          // rozmiar problemu
 	unsigned int _repeat;               // ilosc pomiarow
 	double _averageTime;                // sredni czas
 	double *_pTime = NULL;              // tablica do zapisu czasow
 	
 public:
 
-	Stopwatch(unsigned int, unsigned int);
+	Stopwatch(unsigned long int, unsigned int);
 	~Stopwatch();
 	virtual void measureTime(iRunnable&);
 	virtual void countAverage();

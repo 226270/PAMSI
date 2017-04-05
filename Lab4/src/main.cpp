@@ -33,11 +33,14 @@ int main() {
 				clock.measureTime(object);
 				clock.countAverage();
 				std::cout << "Sredni czas wynosi: " << clock.readAverage();
-				clock.~Stopwatch();
+			//	clock.~Stopwatch();
 			}
 				break;
 			case '3':
 				std::cout << "Do zobaczenia!\n";
+				break;
+			case '4':
+				object.push(1);
 				break;
 			default:
 				std::cout << "Nieprawidlowa liczba!\n";
