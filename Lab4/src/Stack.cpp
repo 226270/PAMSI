@@ -10,7 +10,7 @@ Element::Element(int num1, Element p) {
 
 }
 
-//Dekonstruktor
+//Destruktor
 Element::~Element() {
 
 	delete _pPrev;
@@ -26,7 +26,7 @@ int Element::readElement() {
 
 
 
-// Dekonstruktor
+// Destruktor
 Stack::~Stack() {
 
 	delete _pTop;
@@ -58,20 +58,39 @@ void Stack::push(int num1) {
 // Funkcja sciagajaca elemnt ze stosu
 void Stack::pop() {
 
-	if(!_pTop) {
+//	if(!_pTop) {
+//
+//		Element *temp;
+//		temp = _pTop;
+//		_pTop = _pTop.(_pPrev);
+//		delete temp;
+//
+//	}
+//
+//	else {
+//
+//		std::cout << "BLAD! Stos jest pusty.";
+//	
+//	}
 
-		Element *temp;
-		temp = _pTop;
-		_pTop = _pTop.(_pPrev);
-		delete temp;
+}
 
-	}
+// Algorytm
+void Stack::doAlgorithm(unsigned int amount) {
 
-	else {
+	for(unsigned int i = 0; i < amount; ++i) {
 
-		std::cout << "BLAD! Stos jest pusty.";
-	
+		push(i);
+
 	}
 
 }
 
+// Zerowanie
+void Stack::neutralise() {
+
+	_size = 0;
+	delete _pTop;
+	_pTop = NULL;
+
+}

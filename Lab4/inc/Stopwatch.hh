@@ -20,7 +20,7 @@ class Stopwatch : public iStopwatch {
 public:
 
 	Stopwatch(unsigned int, unsigned int);
-	virtual ~Stopwatch();
+	~Stopwatch();
 	virtual void measureTime(iRunnable&);
 	virtual void countAverage();
 	virtual double readAverage();

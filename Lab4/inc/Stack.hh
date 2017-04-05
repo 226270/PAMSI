@@ -30,12 +30,12 @@ class Stack : public iStack, public iRunnable {
 
 public:
 
-	virtual ~Stack();
+	~Stack();
 	virtual int top();
 	virtual int size();
 	virtual void push(int);
 	virtual void pop();
-	virtual void doAlgorithm();
+	virtual void doAlgorithm(unsigned int);
 	virtual void neutralise();
 
 };

@@ -10,7 +10,7 @@ Stopwatch::Stopwatch(unsigned int num1, unsigned int num2) {
 
 }
 
-// Dekonstruktor
+// Destruktor
 Stopwatch::~Stopwatch() {
 
 	delete [] _pTime;
@@ -26,10 +26,10 @@ void Stopwatch::measureTime(iRunnable &item) {
 	for (unsigned int i = 0; i < _repeat; ++i) {
 
 		begin = clock();
-	//	item.doAlgorithm(_amount);
+		item.doAlgorithm(_amount);
 		end = clock();
 		_pTime[i] = static_cast <double> (end - begin) / CLOCKS_PER_SEC;
-	//	item.neutralise();
+		item.neutralise();
 
 	}
 

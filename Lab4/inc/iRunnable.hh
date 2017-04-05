@@ -8,8 +8,8 @@ class iRunnable {
 	
 public:
 	
-	virtual void doAlgorithm();
-	virtual void neutralise();
+	virtual void doAlgorithm(unsigned int) = 0;
+	virtual void neutralise() = 0;
 	
 };
 

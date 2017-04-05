@@ -8,7 +8,6 @@ class iStack {
 	
 public:
 
-	virtual ~iStack() = 0;
 	virtual int top() = 0;
 	virtual int size() = 0;
 	virtual void push(int) = 0;

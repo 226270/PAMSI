@@ -28,11 +28,13 @@ int main() {
 				std::cin >> amount >> repeat;
 				break;
 			case '2':
-			//	Stopwatch clock(amount, repeat);
-			//	clock.measureTime(object);
-			//	clock.countAverage();
-			//	std::cout << "Sredni czas wynosi: " << clock.readAverage();
-			//	clock.~clock();
+			{
+				Stopwatch clock(amount, repeat);
+				clock.measureTime(object);
+				clock.countAverage();
+				std::cout << "Sredni czas wynosi: " << clock.readAverage();
+				clock.~Stopwatch();
+			}
 				break;
 			case '3':
 				std::cout << "Do zobaczenia!\n";
