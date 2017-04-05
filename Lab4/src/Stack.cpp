@@ -1,37 +1,6 @@
 #include "Stack.hh"
 
 
-// Konstruktor
-Element::Element(int num, Element* p) {
-
-	_amount = num;
-	_pPrev = p;
-
-}
-
-//Destruktor
-Element::~Element() {
-
-	delete _pPrev;
-
-}
-
-// Funkcja dostepu do wartosci
-int Element::readElement() {
-
-	return _amount;
-
-}
-
-// Funkcja dostepu do wskaznika
-Element* Element::readPointer() {
-
-	return _pPrev;
-
-}
-
-
-
 // Destruktor
 Stack::~Stack() {
 
@@ -73,7 +42,7 @@ int Stack::top() {
 }
 
 // Funkcja zwracająca wielkosc stosu
-int Stack::size() {
+unsigned long int Stack::size() {
 
 	return _size;
 
@@ -97,6 +66,7 @@ void Stack::pop() {
 		temp = _pTop;
 		_pTop = _pTop->readPointer();
 		delete temp;
+		--_size;
 
 	}
 

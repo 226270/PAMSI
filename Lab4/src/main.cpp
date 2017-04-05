@@ -3,6 +3,7 @@
 
 #include "Stopwatch.hh"
 #include "Stack.hh"
+#include "List.hh"
 
 
 int main() {
@@ -11,7 +12,7 @@ int main() {
 	unsigned int repeat = 0;                 // ilosc powtorzen
 	char help;                               // zmienna pomocnicza do menu
 
-	Stack object;
+	List object;
 
 	do {
 
@@ -33,14 +34,11 @@ int main() {
 				clock.measureTime(object);
 				clock.countAverage();
 				std::cout << "Sredni czas wynosi: " << clock.readAverage();
-			//	clock.~Stopwatch();
+				//clock.~Stopwatch();
 			}
 				break;
 			case '3':
 				std::cout << "Do zobaczenia!\n";
-				break;
-			case '4':
-				object.push(1);
 				break;
 			default:
 				std::cout << "Nieprawidlowa liczba!\n";

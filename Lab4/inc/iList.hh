@@ -10,11 +10,11 @@ class iList {
 	
 public:
 
-	virtual void add(int Element, int Position) = 0;
-	virtual void remove(int Position) = 0;
-	virtual int get(int Position) = 0;
-	virtual int size() = 0;
-	virtual int find(int ID) = 0;
+	virtual void add(int, unsigned long int) = 0;
+	virtual void remove(unsigned long int) = 0;
+	virtual int get(unsigned long int) = 0;
+	virtual unsigned long int size() = 0;
+	virtual int find(int) = 0;
 	
 };
 

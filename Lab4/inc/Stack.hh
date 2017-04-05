@@ -7,21 +7,7 @@
 #include <iostream>
 #include "iStack.hh"
 #include "iRunnable.hh"
-
-
-class Element {
-
-	int _amount = 0;
-	Element *_pPrev = NULL;
-
-public:
-
-	Element(int, Element*);
-	~Element();
-	int readElement();
-	Element* readPointer();
-
-};
+#include "Element.hh"
 
 
 class Stack : public iStack, public iRunnable {
@@ -32,9 +18,9 @@ class Stack : public iStack, public iRunnable {
 public:
 
 	~Stack();
-	int find(int);
+	virtual int find(int);
 	virtual int top();
-	virtual int size();
+	virtual unsigned long int size();
 	virtual void push(int);
 	virtual void pop();
 	virtual void doAlgorithm(unsigned long int);

@@ -26,13 +26,9 @@ void Stopwatch::measureTime(iRunnable &item) {
 	for (unsigned long int i = 0; i < _repeat; ++i) {
 
 		begin = clock();
-		std::cout<<"0";
 		item.doAlgorithm(_amount);
-		std::cout<<"1";
 		end = clock();
-		std::cout<<"2";
 		_pTime[i] = static_cast <double> (end - begin) / CLOCKS_PER_SEC;
-		std::cout<<"3";
 		item.neutralise();
 
 	}
