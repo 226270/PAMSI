@@ -3,16 +3,16 @@
 #ifndef ISTACK_HH
 #define ISTACK_HH
 
-#include <iostream>
-
 
 class iStack {
 	
 public:
 
-	virtual void push(int Element) = 0;
-	virtual void pop() = 0;
+	virtual ~iStack() = 0;
+	virtual int top() = 0;
 	virtual int size() = 0;
+	virtual void push(int) = 0;
+	virtual void pop() = 0;
 	
 };
 
