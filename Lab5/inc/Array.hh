@@ -9,23 +9,25 @@
 
 #include <iostream>
 #include "iArray.hh"
+#include "iRunnable.hh"
 
 
-class Array : public iArray {
+class Array : public iArray, public iRunnable {
 	
 	int *_pArray;                       // wskaznik na tablice
-	unsigned int _size;                // rozmiar tablicy
+	unsigned int _size;                 // rozmiar tablicy
 
 public:
 	
 	Array(unsigned int number);
 	~Array();
-	virtual void extendArray(unsigned int amount);
-	virtual void writeElem(unsigned int index, int value);
-	virtual int readElem(unsigned int index);
-	virtual void quicksort(int num1, int num2);
-	virtual void doAlgorithm(unsigned int amount);
-	virtual void neutralise();
+	void extendArray(unsigned int amount);
+	void writeElem(unsigned int index, int value);
+	int readElem(unsigned int index);
+	void quicksort(int num1, int num2);
+
+	void doAlgorithm(unsigned long int amount);
+	void neutralise();
 
 
 };

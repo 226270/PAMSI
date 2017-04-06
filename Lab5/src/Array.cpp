@@ -105,7 +105,7 @@ void Array::quicksort(int begin, int end) {
 }
 
 // Funkcja wykonujaca algorytm dla zadanej wielkosci problemu
-void Array::doAlgorithm(unsigned int amount) {
+void Array::doAlgorithm(unsigned long int amount) {
 
 	for (unsigned int i = 0; i < amount; ++i) {
 
