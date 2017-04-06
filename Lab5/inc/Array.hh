@@ -8,25 +8,24 @@
 #define VALUE 5
 
 #include <iostream>
-//#include "iRunnable.hh"
+#include "iArray.hh"
 
 
-class Array {
+class Array : public iArray {
 	
 	int *_pArray;                       // wskaznik na tablice
 	unsigned int _size;                // rozmiar tablicy
-
-	void extendArray(unsigned int amount);
 
 public:
 	
 	Array(unsigned int number);
 	~Array();
-	void writeElem(unsigned int index, int value);
-	int readElem(unsigned int index);
-	void quicksort(int num1, int num2);
-	void doAlgorithm(unsigned int amount);
-	void neutralise();
+	virtual void extendArray(unsigned int amount);
+	virtual void writeElem(unsigned int index, int value);
+	virtual int readElem(unsigned int index);
+	virtual void quicksort(int num1, int num2);
+	virtual void doAlgorithm(unsigned int amount);
+	virtual void neutralise();
 
 
 };
