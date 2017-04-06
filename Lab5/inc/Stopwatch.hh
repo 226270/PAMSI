@@ -21,9 +21,9 @@ public:
 
 	Stopwatch(unsigned long int, unsigned int);
 	~Stopwatch();
-	virtual void measureTime(iRunnable&);
-	virtual void countAverage();
-	virtual double readAverage();
+	void measureTime(iRunnable&);
+	void countAverage();
+	double readAverage();
 
 };
 
