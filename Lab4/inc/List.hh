@@ -17,13 +17,13 @@ class List : public iList, public iRunnable {
 public:
 	
 	~List();
-	virtual unsigned long int size();
-	virtual void add(int element, unsigned long int position);
-	virtual void remove(unsigned long int position);
-	virtual int get(unsigned long int position);
-	virtual int find(int);
-	virtual void doAlgorithm(unsigned long int);
-	virtual void neutralise();
+	unsigned long int size();
+	void add(int element, unsigned long int position);
+	void remove(unsigned long int position);
+	int get(unsigned long int position);
+	int find(int);
+	void doAlgorithm(unsigned long int);
+	void neutralise();
 
 };
 

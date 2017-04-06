@@ -18,13 +18,13 @@ class Stack : public iStack, public iRunnable {
 public:
 
 	~Stack();
-	virtual int find(int);
-	virtual int top();
-	virtual unsigned long int size();
-	virtual void push(int);
-	virtual void pop();
-	virtual void doAlgorithm(unsigned long int);
-	virtual void neutralise();
+	int find(int);
+	int top();
+	unsigned long int size();
+	void push(int);
+	void pop();
+	void doAlgorithm(unsigned long int);
+	void neutralise();
 
 };
 

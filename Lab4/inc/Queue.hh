@@ -18,12 +18,12 @@ class Queue : public iQueue, public iRunnable {
 public:
 	
 	~Queue();
-	virtual unsigned long int size();
-	virtual void enqueue(int element);
-	virtual void dequeue();
-	virtual int find(int);
-	virtual void doAlgorithm(unsigned long int);
-	virtual void neutralise();
+	unsigned long int size();
+	void enqueue(int element);
+	void dequeue();
+	int find(int);
+	void doAlgorithm(unsigned long int);
+	void neutralise();
 
 };
 
