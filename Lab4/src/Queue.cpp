@@ -39,7 +39,7 @@ void Queue::dequeue() {
 
 	if(_pBegin != NULL) {
 		
-		while(help < _size) {
+		while(help < (_size-1)) {
 
 			p = p->readPointer();
 			++help;
@@ -105,8 +105,12 @@ void Queue::doAlgorithm(unsigned long int amount) {
 
 void Queue::neutralise() {
 
-	delete _pBegin;
-	delete _pEnd;
+	for(unsigned long int i = 0; i < _size; ++i) {
+
+		dequeue();
+
+	}
+
 	_pBegin = NULL;
 	_pEnd = NULL;
 	_size = 0;
