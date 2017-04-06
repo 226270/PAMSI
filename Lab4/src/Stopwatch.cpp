@@ -29,7 +29,7 @@ void Stopwatch::measureTime(iRunnable &item) {
 		item.doAlgorithm(_amount);
 		end = clock();
 		_pTime[i] = static_cast <double> (end - begin) / CLOCKS_PER_SEC;
-		//item.neutralise();
+		item.neutralise();
 
 	}
 

@@ -13,7 +13,7 @@ int main() {
 	unsigned int repeat = 0;                 // ilosc powtorzen
 	char help;                               // zmienna pomocnicza do menu
 
-	Queue object;
+	Stack object;
 
 	do {
 
@@ -35,7 +35,7 @@ int main() {
 				clock.measureTime(object);
 				clock.countAverage();
 				std::cout << "Sredni czas wynosi: " << clock.readAverage();
-				//clock.~Stopwatch();
+				clock.~Stopwatch();
 			}
 				break;
 			case '3':
