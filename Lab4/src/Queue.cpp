@@ -3,9 +3,12 @@
 // Destruktor
 Queue::~Queue() {
 
-	delete _pBegin;
-	delete _pEnd;
+	for(unsigned long int i = 0; i < _size; ++i) {
 
+		dequeue();
+
+	}
+	
 }
 
 unsigned long int Queue::size() {

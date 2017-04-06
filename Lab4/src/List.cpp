@@ -3,7 +3,11 @@
 // Destruktor
 List::~List() {
 
-	delete _pBegin;
+	for(unsigned long int i = 0; i < _size; ++i) {
+
+		remove(0);
+
+	}
 
 }
 

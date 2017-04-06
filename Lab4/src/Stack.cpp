@@ -4,7 +4,11 @@
 // Destruktor
 Stack::~Stack() {
 
-	delete _pTop;
+	for(unsigned long int i = 0; i < _size; ++i) {
+
+		pop();
+
+	}
 
 }
 

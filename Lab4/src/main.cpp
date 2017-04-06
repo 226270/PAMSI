@@ -13,7 +13,7 @@ int main() {
 	unsigned int repeat = 0;                 // ilosc powtorzen
 	char help;                               // zmienna pomocnicza do menu
 
-	List object;
+	Queue object;
 
 	do {
 
