@@ -99,7 +99,7 @@ void Queue::doAlgorithm(unsigned long int amount) {
 
 	}
 
-	std::cout << std::endl;// << find(0) << std::endl;
+	std::cout << std::endl << find(0) << std::endl;
 
 }
 

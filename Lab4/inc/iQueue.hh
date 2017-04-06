@@ -13,6 +13,7 @@ public:
 	virtual void enqueue(int element) = 0;
 	virtual void dequeue() = 0;
 	virtual unsigned long int size() = 0;
+	virtual int find(int) = 0;
 	
 };
 
