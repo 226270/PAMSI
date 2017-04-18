@@ -25,8 +25,11 @@ public:
 	void writeElem(unsigned int index, int value);
 	int readElem(unsigned int index);
 	void quicksort(int num1, int num2);
+	void fillIncrease();
+	void fillDecrease();
+	void fillRandom();
 
-	void doAlgorithm(unsigned long int amount);
+	void doAlgorithm(unsigned int amount);
 	void neutralise();
 
 

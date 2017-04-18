@@ -7,37 +7,22 @@
 
 int main() {
 	
-	int size, val; 
+	int size, ver, rep; 
 
-	std::cout << "Podaj rozmiar\n";
-	std::cin >> size;
+	srand(time(NULL));
+
+	std::cout << "Podaj rozmiar, wersje wypelnienia, ilosc powtorzen\n";
+	std::cout << "    1. Wypelnienie rosnaco\n";
+	std::cout << "    2. Wypelnienie malejaco\n";
+	std::cout << "    3. Wypelnienie losowo\n\n";
+	std::cin >> size >> ver >> rep;
 
 	Array object(size);
+	Stopwatch timer(ver, rep);
 
-	std::cout << "Wpisz wartosci:\n";
-
-	for(int i = 0; i < size; ++i) {
-		std::cin >> val;
-		object.writeElem(i, val);
-	}
-
-	std::cout << "Twoja tablica przed sortowaniem:\n";
-
-	for(int i = 0; i < size; ++i) {
-		std::cout << object.readElem(i) << " ";
-	}
-
-	std::cout << std::endl;
-
-	object.quicksort(0, size-1);
-
-	std::cout << "Twoja tablica po sortowaniem:\n";
-
-	for(int i = 0; i < size; ++i) {
-		std::cout << object.readElem(i) << " ";
-	}
-
-	std::cout << std::endl;
+	timer.measureTime(object);
+	timer.countAverage();
+	std::cout << "Sredni czas wynosi:  " << timer.readAverage() << std::endl;
 
 	return 0;
 	

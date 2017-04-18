@@ -71,47 +71,97 @@ void Array::quicksort(int begin, int end) {
 
 	int left = begin-1;
 	int right = end+1;
-	int pivot = _pArray[(begin+end)/2];
 	int help;
+//	int pivot = _pArray[(begin+end)/2];
+	int pivot = _pArray[end];
+
 
 	while(1) {
 
-		while(_pArray[++left] < pivot) {}
+		while(_pArray[++left] < pivot);
 
-		while(_pArray[--right] > pivot) {}
+		while(_pArray[--right] > pivot);
 
-		if(left < right) {
+		if(left <= right) {
 			help = _pArray[left];
 			_pArray[left] = _pArray[right];
 			_pArray[right] = help;
-			++left;
-			--right;
 		}
 
 		else {
 			break;
 		}
+	}
 
+	if(right > begin) {
+		quicksort(begin, right);
 	}
 
 	if(left < end) {
-		std::cout<<"p";
 		quicksort(left, end);
 	}
-	if(right > begin) {
-		quicksort(begin, right);
+
+}
+
+void Array::fillIncrease() {
+
+	for(unsigned int i = 0; i < _size; ++i) {
+		_pArray[i] = i+1;
+	}
+
+}
+
+void Array::fillDecrease() {
+
+	for(unsigned int i = 0; i < _size; ++i) {
+		_pArray[i] = _size-i;
+	}
+
+}
+
+void Array::fillRandom() {
+
+	for(unsigned int i = 0; i < _size; ++i) {
+		_pArray[i] = std::rand() % _size+5;
 	}
 
 }
 
 // Funkcja wykonujaca algorytm dla zadanej wielkosci problemu
-void Array::doAlgorithm(unsigned long int amount) {
+void Array::doAlgorithm(unsigned int amount) {
+
+	switch(amount) {
+		case(1):
+			fillIncrease();
+			break;
+		case(2):
+			fillDecrease();
+			break;
+		case(3):
+			fillRandom();
+			break;
+		default:
+			std::cout << "Blad!\n";
+			break;
+	}
+
+//	std::cout << "Twoja tablica przed sortowaniem:\n";
+//	for(unsigned int i = 0; i < _size; ++i) {
+//		std::cout << readElem(i) << " ";
+//	}
+//	std::cout << std::endl;
+
 
 	for (unsigned int i = 0; i < amount; ++i) {
-
-		writeElem(i, VALUE);
-
+		quicksort(0, _size-1);
 	}
+
+
+//	std::cout << "Twoja tablica po sortowaniu:\n";
+//	for(unsigned int i = 0; i < _size; ++i) {
+//		std::cout << readElem(i) << " ";
+//	}
+//	std::cout << std::endl;
 
 }
 
@@ -119,7 +169,6 @@ void Array::doAlgorithm(unsigned long int amount) {
 void Array::neutralise() {
 
 	delete [] _pArray;
-	_size = START;
 	_pArray = new int[_size]; 
 
 }
