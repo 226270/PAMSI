@@ -73,8 +73,8 @@ void Array::quicksort(int begin, int end) {
 	int right = end+1;
 	int help;
 //	int pivot = _pArray[(begin+end)/2];
-	int pivot = _pArray[end];
-
+//	int pivot = _pArray[end];
+	int pivot = _pArray[std::rand()%(_size-1)];
 
 	while(1) {
 
