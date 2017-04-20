@@ -5,9 +5,12 @@
 	interfejs iTestwany
 */
 
-class iTestowany{
+class iTestowany {
+
 public:
+
 	virtual	void wykonaj_test(int ilosc)=0;		//rozpoczecie procedury testowej	
+
 };
 
 #endif
