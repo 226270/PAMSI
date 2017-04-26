@@ -166,7 +166,7 @@ void Tablica::scal(int lewy, int srodek, int prawy) {
 
 ///////////////////////////////////////////////////////////
  
-void Tablica::merge(int lewy, int prawy) {
+void Tablica::mergesort(int lewy, int prawy) {
 
 	//gdy mamy jeden element, to jest on już posortowany
 	if(prawy <= lewy) {
@@ -177,8 +177,8 @@ void Tablica::merge(int lewy, int prawy) {
 	int srodek = (prawy+lewy)/2;
 
 	//dzielimy tablice na częsć lewą i prawa
-	merge(lewy, srodek); 
-	merge(srodek+1, prawy);
+	mergesort(lewy, srodek); 
+	mergesort(srodek+1, prawy);
 
 	//scalamy dwie już posortowane tablice
 	scal(lewy, srodek, prawy);
@@ -189,8 +189,8 @@ void Tablica::merge(int lewy, int prawy) {
 ///////////////////////////////////////////////////////////////////////////////
 
 void Tablica::wykonaj_test(int ilosc) {
-		
-	merge(0, ilosc-1);
+	
+	mergesort(0, ilosc-1);
 
 } 
 

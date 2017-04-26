@@ -28,7 +28,7 @@ void Zegar::IleTrwalo() {
 
 }
 
-void Zegar::ZmierzCzas(iTestowany &Obiekt,int ilosc) {
+void Zegar::ZmierzCzas(iTestowany &Obiekt, int ilosc) {
 
 		CzasStart();
 		Obiekt.wykonaj_test(ilosc);

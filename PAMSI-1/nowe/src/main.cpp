@@ -15,7 +15,7 @@ int main() {
 
 	Zegar Stoper;
 	
-	int ilosc_pomiarow = 20;
+	int ilosc_pomiarow = 5;
 	int wielkosc_problemu;
 	int poczatkowy_rozmiar;
 
