@@ -8,13 +8,17 @@
 int main() {
 
 	std::string key;
+	std::string data;
 
-	AssocArray object();
+	AssocArray object;
 
 	std::cout << "Podaj klucz: \n";
 	std::cin >> key;
 	std::cout << std::endl << "Definicja Twojego hasla to: \n\t";
-//	std::cout << object[key];
+	std::cin >> data;
+
+	object.addElem(key, data);
+//	std::cout << object.readElem(key);
 
 	return 0;
 	

@@ -5,7 +5,7 @@
 AssocArray::AssocArray() {
 	
 	_size = START;
-	_pAssocArray = new int[_size];
+	_pAssocArray = new List*[_size];
 	
 }
 
@@ -24,16 +24,32 @@ unsigned int AssocArray::readSize() {
 }
 
 // Funkcja zrzucajaca pierwsza litere klucza na int
-int AssocArray::hashElem(std::string name) {
+int AssocArray::hashElem(std::string key) {
 
-	return (int)name[0];
+	int h = 0;
+
+	for(unsigned int i = 0; i < key.length(); ++i) {
+		h += (int)key[i];
+	}
+
+	return h % 31;
 
 }
 
 // Funkcja dodajaca element
 void AssocArray::addElem(std::string key, std::string data) {
 
-	_pAssocArray[hashElem(key)] = 0;
+	int hash = hashElem(key);
+	_pAssocArray[hash]->add(key, data);
+	++_size;
+
+}
+
+// Funkcja czytajaca element
+std::string AssocArray::readElem(std::string key) {
+
+	int hash = hashElem(key);
+	return _pAssocArray[hash]->get(key);
 
 }
 
@@ -47,6 +63,6 @@ void AssocArray::doAlgorithm(unsigned int amount) {
 void AssocArray::neutralise() {
 
 	delete [] _pAssocArray;
-	_pAssocArray = new int[_size]; 
+	_pAssocArray = new List*[_size]; 
 
 }

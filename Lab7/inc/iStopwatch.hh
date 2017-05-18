@@ -3,6 +3,8 @@
 #ifndef ISTOPWATCH_HH
 #define ISTOPWATCH_HH
 
+#include <iostream>
+#include <ctime>
 #include "iRunnable.hh"
 
 

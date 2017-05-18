@@ -4,8 +4,6 @@
 #ifndef STOPWATCH_HH
 #define STOPWATCH_HH
 
-#include <iostream>
-#include <ctime>
 #include "iStopwatch.hh"
 #include "iRunnable.hh"
 
