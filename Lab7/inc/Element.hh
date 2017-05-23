@@ -4,21 +4,24 @@
 #define ELEMENT_HH
 
 #include <iostream>
+#include <string>
+
 
 
 class Element {
 
 	std::string _key;
 	std::string _data;
-	Element *_pPrev;
 
 public:
 
-	Element(std::string, std::string, Element*);
+	Element *_pNext;
+
+	Element(std::string, std::string);
 	~Element();
 	std::string readKey();
 	std::string readData();
-	Element* readPointer();
+	Element * readPointer();
 
 };
 

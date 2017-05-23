@@ -22,11 +22,22 @@ void Stopwatch::measureTime(iRunnable &item) {
 
 	clock_t begin;                   // poczatkowa ilosc cykli zegara
 	clock_t end;                     // koncowa ilosc cykli zegara
+	std::string key;
+	std::string data;
 
 	for (unsigned long int i = 0; i < _repeat; ++i) {
 
+		for(unsigned int i = 0; i < _amount; ++i) {
+
+			key = "";
+			for(int j = 0; j < LENGTH; ++j) {
+				key += 65 + (rand() % 26);
+			}
+			item.addElem(key, "abc");
+		}
+
 		begin = clock();
-		item.doAlgorithm(_amount);
+		std::cout << item.readElem(key);
 		end = clock();
 		_pTime[i] = static_cast <double> (end - begin) / CLOCKS_PER_SEC;
 		item.neutralise();

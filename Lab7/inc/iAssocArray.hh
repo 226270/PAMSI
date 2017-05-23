@@ -3,8 +3,10 @@
 #ifndef IASSOCARRAY_HH
 #define IASSOCARRAY_HH
 
-#include <string>
 #include <iostream>
+#include <string>
+#include <math.h>
+
 
 
 class iAssocArray {

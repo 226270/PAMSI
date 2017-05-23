@@ -2,17 +2,10 @@
 
 
 // Konstruktor inicjujacy tablice poczatkowa
-AssocArray::AssocArray() {
+AssocArray::AssocArray(unsigned int size) {
 	
-	_size = START;
-	_pAssocArray = new List*[_size];
-	
-}
-
-// Destruktor
-AssocArray::~AssocArray() {
-	
-	delete [] _pAssocArray;
+	_size = size;
+	_pAssocArray = new List[_size];
 	
 }
 
@@ -23,16 +16,25 @@ unsigned int AssocArray::readSize() {
 	
 }
 
-// Funkcja zrzucajaca pierwsza litere klucza na int
+// Funkcja zrzucajaca litery klucza na int i liczaca modulo
 int AssocArray::hashElem(std::string key) {
 
 	int h = 0;
+	float A = (sqrt(5)-1)/2;
 
+// Następne linijki to pierwsza f. hashujaca
+//	for(unsigned int i = 0; i < key.length(); ++i) {
+//		h += (int)key[i];
+//	}
+//	h = h % _size;
+
+// Następne linijki to druga f. hashujaca
 	for(unsigned int i = 0; i < key.length(); ++i) {
 		h += (int)key[i];
 	}
+	h = (int)( _size * ( (h * A) - floor(h * A) ) );
 
-	return h % 31;
+	return h;
 
 }
 
@@ -40,8 +42,8 @@ int AssocArray::hashElem(std::string key) {
 void AssocArray::addElem(std::string key, std::string data) {
 
 	int hash = hashElem(key);
-	_pAssocArray[hash]->add(key, data);
-	++_size;
+
+	_pAssocArray[hash].add(key, data);
 
 }
 
@@ -49,20 +51,22 @@ void AssocArray::addElem(std::string key, std::string data) {
 std::string AssocArray::readElem(std::string key) {
 
 	int hash = hashElem(key);
-	return _pAssocArray[hash]->get(key);
+	
+	return _pAssocArray[hash].get(key);
 
 }
 
 // Funkcja wykonujaca algorytm dla zadanej wielkosci problemu
-void AssocArray::doAlgorithm(unsigned int amount) {
+void AssocArray::doAlgorithm(std::string key) {
 
+	std::cout << readElem("key");
 
 }
 
 // Funkcja zerujaca obiekt do stanu poczatkowego
 void AssocArray::neutralise() {
 
-	delete [] _pAssocArray;
-	_pAssocArray = new List*[_size]; 
+//	delete [] _pAssocArray;
+	_pAssocArray = new List[_size]; 
 
 }

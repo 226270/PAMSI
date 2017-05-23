@@ -7,6 +7,9 @@
 #include <ctime>
 #include "iRunnable.hh"
 
+#define LENGTH 5
+
+
 
 class iStopwatch {
 	

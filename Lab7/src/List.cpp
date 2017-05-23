@@ -1,5 +1,6 @@
 #include "List.hh"
 
+
 // Konstruktor
 List::List() {
 
@@ -13,29 +14,50 @@ List::~List() {
 
 	for(unsigned long int i = 0; i < _size; ++i) {
 
-		remove(0);
+		remove();
 
 	}
 
 }
 
+// Funkcja dostepu do rozmiaru listy
 unsigned long int List::size() {
 
 	return _size;
 
 }
 
-// Tylko na poczatek!
+// Funkcja dodawania elementu
+// Tylko na koniec listy!
 void List::add(std::string key, std::string data) {
 
-	Element *newElement = new Element(key, data, _pBegin);
-	_pBegin = newElement;
+	Element *newElement = new Element(key, data);
+
+	if(_pBegin == NULL) {
+
+		_pBegin = newElement;
+
+	}
+	
+	else {
+
+		Element *temp = _pBegin;
+
+		while(temp->readPointer() != NULL) {
+			temp = temp->readPointer();
+		}
+
+		temp->_pNext = newElement;
+
+	}
+
 	++_size;
 
 }
 
-// Tylko pierwszy!
-void List::remove(unsigned long int position) {
+// Funkcja usuwania elementu
+// Tylko pierwszy element listy!
+void List::remove() {
 
 	if(_pBegin != NULL) {
 
@@ -49,20 +71,21 @@ void List::remove(unsigned long int position) {
 
 	else {
 
-		std::cout << "BLAD! Lista jest pusta.\n";
-	
+		std::cout << "BLAD! Lista jest pusta!" << std::endl;
+
 	}
 
 }
 
+// Funkcja dostepu do danych elementu
 std::string List::get(std::string key) {
 
-	Element *p = _pBegin;
+	Element *temp = _pBegin;
 	unsigned long int help = 0;
 
-	while(key != p->readKey() && help < _size) {
+	while(key != temp->readKey() && help < _size) {
 
-		p = p->readPointer();
+		temp = temp->readPointer();
 		++help;
 
 	}
@@ -74,6 +97,10 @@ std::string List::get(std::string key) {
 	
 	}
 
-	return p->readData();
+	else {
+
+		return temp->readData();
+
+	}
 
 }

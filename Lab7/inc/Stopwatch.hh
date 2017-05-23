@@ -8,6 +8,7 @@
 #include "iRunnable.hh"
 
 
+
 class Stopwatch : public iStopwatch {
 
 	unsigned int _amount;          

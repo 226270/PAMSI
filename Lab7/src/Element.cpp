@@ -2,18 +2,18 @@
 
 
 // Konstruktor
-Element::Element(std::string key, std::string data, Element* prev) {
+Element::Element(std::string key, std::string data) {
 
 	_key = key;
 	_data = data;
-	_pPrev = prev;
+	_pNext = NULL;
 
 }
 
 //Destruktor
 Element::~Element() {
 
-	delete _pPrev;
+	delete _pNext;
 
 }
 
@@ -32,8 +32,8 @@ std::string Element::readData() {
 }
 
 // Funkcja dostepu do wskaznika
-Element* Element::readPointer() {
+Element * Element::readPointer() {
 
-	return _pPrev;
+	return _pNext;
 
 }

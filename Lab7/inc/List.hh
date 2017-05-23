@@ -19,7 +19,7 @@ public:
 	~List();
 	unsigned long int size();
 	void add(std::string, std::string);
-	void remove(unsigned long int position);
+	void remove();
 	std::string get(std::string);
 
 };
