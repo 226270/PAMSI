@@ -22,7 +22,7 @@ int main() {
 	clock.countAverage();
 
 	std::cout << "Czas wykonania programu: ";
-	std::cout << clock.readAverage() << std::endl << tree.Size;
+	std::cout << clock.readAverage() << std::endl;
 
 	return 0;
 	

@@ -35,7 +35,7 @@ void AVL::countBalance(Node *node) {
 
 // Funkcja dodajaca element
 void AVL::add(int num) {
-Size += 1;
+
 	Node *pNew = new Node(num);
 	Node *pHelp = _pRoot;
 	Node *pR;

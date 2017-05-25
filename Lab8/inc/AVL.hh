@@ -15,7 +15,6 @@ class AVL : public iRunnable {
 
 public:
 
-	int Size = 0;
 	AVL();
 	~AVL();
 	void countBalance(Node *);
