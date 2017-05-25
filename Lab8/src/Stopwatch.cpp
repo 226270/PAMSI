@@ -24,14 +24,14 @@ void Stopwatch::measureTime(iRunnable &item) {
 	clock_t end;                     // koncowa ilosc cykli zegara
 
 	item.prepare(_amount);
-	
+
 	for (unsigned int i = 0; i < _repeat; ++i) {
 
 		begin = clock();
 		item.doAlgorithm(_amount);
 		end = clock();
 		_pTime[i] = static_cast <double> (end - begin) / CLOCKS_PER_SEC;
-		item.neutralise();
+//		item.neutralise();
 
 	}
 
