@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="bus_stops">
+        <item>9 Maja</item>
+        <item>Adamczewskich</item>
+        <item>Adamieckiego</item>
+        <item>Aleja Pracy</item>
+        <item>Aleja Wędrowców</item>
+        <item>Al. Piastów</item>
+        <item>Arabska</item>
+        <item>Arena</item>
+        <item>Arkady (Capitol)</item>
+        <item>Armii Krajowej</item>
+        <item>Auchan</item>
+        <item>Autostrada</item>
+        <item>Azaliowa</item>
+        <item>Bacciarellego</item>
+        <item>Bagatela</item>
+        <item>Bajana</item>
+        <item>BAJANA - pętla</item>
+        <item>Bałtycka</item>
+        <item>BARDZKA</item>
+        <item>BARDZKA (Cmentarz)</item>
+        <item>BARTOSZOWICE</item>
+        <item>Bąków</item>
+        <item>Berenta</item>
+        <item>Bezpieczna</item>
+        <item>Białych Goździków</item>
+        <item>BIELANY WROCŁAWSKIE</item>
+        <item>Bielany - Kościół</item>
+        <item>Bielany - Kwiatowa</item>
+        <item>Bielany - MAKRO</item>
+        <item>Bielany - PKP</item>
+        <item>Bielany - PKS</item>
+        <item>Bielany - skrzyżowanie</item>
+        <item>Bielawa</item>
+        <item>BIEŃKOWICE</item>
+        <item>Bierdzany</item>
+        <item>Bierutowska</item>
+        <item>Bierutowska 75</item>
+        <item>BIERUTOWSKA (Ośrodek zdrowia)</item>
+        <item>Bierutowska - wiadukt</item>
+        <item>Bierzyce</item>
+        <item>Bierzyce - wieś</item>
+        <item>Biestrzyków - skrzyżowanie</item>
+        <item>Biskupice Podgórne Dong Seo/Dong Yang</item>
+        <item>Biskupice Podgórne LG Chem</item>
+        <item>Biskupice Podgórne LG Display</item>
+        <item>Biskupice Podgórne LG Electronics</item>
+        <item>Biskupice Podgórne LG Innotek</item>
+        <item>BISKUPIN</item>
+        <item>BLACHARSKA</item>
+        <item>BLIZANOWICE</item>
+        <item>Blizanowicka</item>
+        <item>Bociania</item>
+        <item>Bogusławice</item>
+        <item>Bojanowska</item>
+        <item>Borowa - skrzyżowanie</item>
+        <item>Borowa - Stacja PKP</item>
+        <item>Borowa - szkoła</item>
+        <item>Borowska</item>
+        <item>Borowska</item>
+        <item>Braterska</item>
+        <item>Brochowska</item>
+        <item>BROCHÓW</item>
+        <item>BROCHÓW (Stacja kolejowa)</item>
+        <item>Brodnicka</item>
+        <item>Brodzka</item>
+        <item>Brodzka - łącznik</item>
+        <item>Broniewskiego</item>
+        <item>Brücknera</item>
+        <item>Brzezia Łąka - cmentarz</item>
+        <item>Brzezia Łąka - Główna</item>
+        <item>Brzezia Łąka - Lipowa</item>
+        <item>Brzezina</item>
+        <item>BRZEZINA (pętla)</item>
+        <item>Brzezina - Chrobrego</item>
+        <item>Brzezina - Kościół</item>
+        <item>Brzezina - Osiedle</item>
+        <item>BRZEZINA - pętla</item>
+        <item>Brzezinka Średzka</item>
+        <item>Brzezinka Średzka - Główna</item>
+        <item>Brzezińska</item>
+        <item>Budziwojowice</item>
+        <item>Buforowa</item>
+        <item>Bujwida</item>
+        <item>Bukowina</item>
+        <item>Bukowina - skrzyżowanie</item>
+        <item>Bukowskiego</item>
+        <item>Byków</item>
+        <item>Byków - Bar</item>
+        <item>Byków - Lange</item>
+        <item>Bystrzycka</item>
+        <item>Bzowa</item>
+        <item>Ceglana</item>
+        <item>Centralna</item>
+        <item>Centrostal</item>
+        <item>CENTRUM HURTU UL. GIEŁDOWA</item>
+        <item>Centrum Zarządzania Kryzysowego</item>
+        <item>Chełmońskiego</item>
+        <item>Chińska</item>
+        <item>Chłodna</item>
+        <item>Chłopska</item>
+        <item>Chociebuska</item>
+        <item>Chopina</item>
+        <item>Chwałkowska</item>
+        <item>C.H. Korona</item>
+        <item>Ciechocińska</item>
+        <item>Czajkowskiego</item>
+        <item>Damrota</item>
+        <item>Daszyńskiego</item>
+        <item>Dawida</item>
+        <item>Dąbrowica</item>
+        <item>DH Astra</item>
+        <item>Długa</item>
+        <item>DŁUGA (Politechnika)</item>
+        <item>Długołęka Nowy Urząd</item>
+        <item>Długołęka - Kościół</item>
+        <item>Długołęka - SELGROS</item>
+        <item>Długołęka - skrzyżowanie</item>
+        <item>Długołęka - Volvo</item>
+        <item>Długołęka - Wrocławska</item>
+        <item>Długosza</item>
+        <item>Dmowskiego</item>
+        <item>Dobroszów</item>
+        <item>Dobroszycka</item>
+        <item>Dokerska</item>
+        <item>Dolmed</item>
+        <item>Dolnobrzeska</item>
+        <item>Dolnośląska Szkoła Wyższa</item>
+        <item>DOMASZCZYN</item>
+        <item>Domaszczyn - Dębowa</item>
+        <item>Domaszczyn - sklep</item>
+        <item>Domaszczyn - skrzyżowanie</item>
+        <item>Domaszczyn - Trzebnicka</item>
+        <item>Drukarska</item>
+        <item>Drzewieckiego</item>
+        <item>Dubois</item>
+        <item>DWORCOWA</item>
+        <item>Dworska</item>
+        <item>DWORZEC AUTOBUSOWY</item>
+        <item>DWORZEC GŁ. PKP</item>
+        <item>DWORZEC NADODRZE</item>
+        <item>DW. ŚWIEBODZKI</item>
+        <item>Dyrekcyjna</item>
+        <item>Działdowska</item>
+        <item>Dzielna</item>
+        <item>EPI</item>
+        <item>Eureka</item>
+        <item>Fadroma</item>
+        <item>FAT</item>
+        <item>Fiołkowa</item>
+        <item>Forum Muzyki</item>
+        <item>GAJ</item>
+        <item>Gajowa</item>
+        <item>Gajowicka</item>
+        <item>Gajowicka (Gimnazjum nr 23)</item>
+        <item>GAJ - pętla</item>
+        <item>GALERIA DOMINIKAŃSKA</item>
+        <item>Gałczyńskiego</item>
+        <item>Gałowska</item>
+        <item>GAŁÓW</item>
+        <item>GAŁÓW (pętla)</item>
+        <item>Gałów - ferma</item>
+        <item>Gałów - PGR</item>
+        <item>Gałów - Przedszkole</item>
+        <item>Gazowa</item>
+        <item>Gądowianka</item>
+        <item>Gąsiorowskiego</item>
+        <item>Gęsia</item>
+        <item>Gimnazjum nr 23</item>
+        <item>Glinianki</item>
+        <item>Głogowska</item>
+        <item>Główna</item>
+        <item>Głubczycka</item>
+        <item>Godebskiego</item>
+        <item>Godzieszowa</item>
+        <item>Godzieszowa - stajnia</item>
+        <item>Gorlicka</item>
+        <item>Gospodarska</item>
+        <item>Góra Kapliczna</item>
+        <item>Górnickiego</item>
+        <item>Górnicza</item>
+        <item>GRABISZYNEK</item>
+        <item>Grabiszyńska</item>
+        <item>GRABISZYŃSKA (Cmentarz)</item>
+        <item>GRABISZYŃSKA (Cmentarz II)</item>
+        <item>Grabowa</item>
+        <item>Graniczna</item>
+        <item>Graniczna (Strachowicka)</item>
+        <item>Grawerska</item>
+        <item>  Groblice II-Kotowicka</item>
+        <item>  Groblice - Kolejowa</item>
+     
+    </string-array>
+
+</resources>
