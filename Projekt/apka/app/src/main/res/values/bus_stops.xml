@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="bus_stops">
+        <item>Marszowicka</item>
+        <item>DWORZEC GŁÓWNY</item>
+        <item>Wzgórze Partyzantów</item>
+        <item>Swojczycka</item>
+        <item>Jutrosińska</item>
+        <item>Kwiska</item>
+        <item>Metalowców</item>
+        <item>Biskupice Podgórne LG Electronics</item>
+        <item>Rondo</item>
+        <item>Bukowina - skrzyżowanie</item>
+        <item>Wiślańska</item>
+        <item>Bujwida</item>
+        <item>Hubska</item>
+        <item>Strachowice General Aviation</item>
+        <item>SZCZODRE</item>
+        <item>Nowy Dwór (Rogowska)</item>
+        <item>Słowiańska</item>
+        <item>Psie Pole (Rondo Lotników Polskich)</item>
+        <item>Bagatela</item>
+        <item>Las Mokrzański</item>
+        <item>GALERIA DOMINIKAŃSKA</item>
+        <item>Domaszczyn-Dębowa</item>
+        <item>Smocza</item>
+        <item>PL. STASZICA</item>
+        <item>Ołtaszyn</item>
+        <item>PL. DANIŁOWSKIEGO</item>
+        <item>Radwanice - Szkoła</item>
+        <item>Bałtycka</item>
+        <item>Zajazdowa</item>
+        <item>Partyzantów</item>
+        <item>Domaszczyn-Trzebnicka</item>
+        <item>Broniewskiego</item>
+        <item>Zagony</item>
+        <item>ROD Bajki</item>
+        <item>Łukaszowice</item>
+        <item>Góra Kapliczna</item>
+        <item>Ślęza (ul. Pszenna - autostrada)</item>
+        <item>Serbska (C.K. Agora)</item>
+        <item>Dworska</item>
+        <item>BARDZKA</item>
+        <item>Bzowa (Centrum Zajezdnia)</item>
+        <item>Glinianki</item>
+        <item>CENTRUM HURTU UL. GIEŁDOWA</item>
+        <item>Kasprowicza</item>
+        <item>Dmowskiego</item>
+        <item>LITOMSKA (ZUS)</item>
+        <item>SZYMANÓW</item>
+        <item>Muchobór Wielki (Roślinna)</item>
+        <item>Solskiego</item>
+        <item>Wejherowska</item>
+        <item>PL. GRUNWALDZKI</item>
+        <item>Park Brochowski</item>
+        <item>Aleja Pracy</item>
+        <item>JERZMANOWSKA (pętla)</item>
+        <item>Wschowska</item>
+        <item>Ratyń - skrzyżowanie</item>
+        <item>Prudnicka</item>
+        <item>POLANOWICE</item>
+        <item>Wolska</item>
+        <item>Opatowicka nr 127</item>
+        <item>Śliwice</item>
+        <item>Chińska</item>
+        <item>Rdestowa</item>
+        <item>LIPA PIOTROWSKA</item>
+        <item>Siechnice - ZOZ</item>
+        <item>Na Niskich Łąkach</item>
+        <item>Tymiankowa</item>
+        <item>Mydlice I</item>
+        <item>Zębice - Trzech Lip/Prusa</item>
+        <item>Brodzka</item>
+        <item>most Milenijny</item>
+        <item>Hala Stulecia</item>
+        <item>RĘDZIN</item>
+        <item>Kurpiów</item>
+        <item>Kępa</item>
+        <item>pl. Wróblewskiego</item>
+        <item>Lubelska</item>
+        <item>Brzezina - Osiedle</item>
+        <item>Kamień I</item>
+        <item>Jarnołtowska (Samotworska)</item>
+        <item>Raków - zakład</item>
+        <item>Gąsiorowskiego</item>
+        <item>Kiełczów - WODROL</item>
+        <item>Kleczkowska</item>
+        <item>Przebiśniegowa</item>
+        <item>Rynek</item>
+        <item>Szczecińska</item>
+        <item>Mikołowska</item>
+        <item>PRACZE ODRZAŃSKIE</item>
+        <item>KROMERA</item>
+        <item>Na Grobli</item>
+        <item>PARK POŁUDNIOWY</item>
+        <item>KUŹNIKI (Stacja kolejowa)</item>
+        <item>Bystrzycka</item>
+        <item>Wiaduktowa</item>
+        <item>Piramowicza</item>
+        <item>Topolowa</item>
+        <item>Szczepin</item>
+        <item>Świdnicka</item>
+        <item>Wyścigowa</item>
+        <item>most Osobowicki</item>
+        <item>Kiełczów - Rzeczna</item>
+        <item>Ślęza (ul. Dębowa)</item>
+        <item>Górnickiego</item>
+        <item>C.H. Korona</item>
+        <item>Sosnowiecka</item>
+        <item>Smardzów - Reja</item>
+        <item>OSOBOWICKA (Cmentarz II)</item>
+        <item>BIERUTOWSKA (Wiadukt)</item>
+        <item>Brzezia Łąka - Główna</item>
+        <item>pl. Nowy Targ</item>
+        <item>STABŁOWICKA (Ośrodek zdrowia)</item>
+        <item>Oleśniczka</item>
+        <item>Kamienna</item>
+        <item>KOLBUSZOWSKA (Stadion)</item>
+        <item>Witkowska</item>
+        <item>PILCZYCE</item>
+        <item>Weigla (Szpital)</item>
+        <item>Bacciarellego</item>
+        <item>Polkowicka</item>
+        <item>Dzielna</item>
+        <item>Poznańska</item>
+        <item>Pułaskiego</item>
+        <item>Kępa - Skrzyżowanie</item>
+        <item>Jastrzębia</item>
+        <item>Krakowiany</item>
+        <item>Krucza</item>
+        <item>Mosty Warszawskie</item>
+        <item>Kątna</item>
+        <item>Górnicza</item>
+        <item>Zbożowa</item>
+        <item>Morelowskiego</item>
+        <item>PL. JANA PAWŁA II</item>
+        <item>Kopernika</item>
+        <item>Narodowe Forum Muzyki</item>
+        <item>Przedwiośnie (Stacja kolejowa)</item>
+        <item>Siechnice - Elektrociepłownia</item>
+        <item>Maślice Małe</item>
+        <item>Sudecka</item>
+        <item>Redycka</item>
+        <item>Palacha</item>
+        <item>Spółdzielcza</item>
+        <item>Skierniewicka</item>
+        <item>Renoma</item>
+        <item>Żmigrodzka (Obwodnica)</item>
+        <item>Łozina - Nowego Osiedla I</item>
+        <item>Dworzec Główny (Stawowa)</item>
+        <item>Pomorska</item>
+        <item>FAT</item>
+        <item>Ślęza (ul. Przystankowa)</item>
+        <item>Urząd Wojewódzki</item>
+        <item>Siechnice - Szkolna</item>
+        <item>Ceglana</item>
+        <item>Pułtuska</item>
+        <item>Zacisze</item>
+        <item>Dubois</item>
+        <item>Arkady (Capitol)</item>
+        <item>Oleśniczka - skrzyżowanie</item>
+        <item>Śniadeckich</item>
+        <item>Kliniki</item>
+        <item>Kolista</item>
+        <item>Kamiennogórska (Ośrodek dla niewidomych)</item>
+        <item>SĘPOLNO</item>
+        <item>OSOBOWICKA (Cmentarz)</item>
+        <item>Grabiszyńska</item>
+        <item>Marchewkowa</item>
+        <item>GRABISZYŃSKA (Cmentarz II)</item>
+        <item>Partynice</item>
+        <item>Modra</item>
+        <item>Rzemieślnicza</item>
+        <item>Ostrowskiego</item>
+        <item>Trzmielowicka</item>
+        <item>Św. Katarzyna - szkoła</item>
+        <item>ZAWALNA</item>
+        <item>Ojca Beyzyma</item>
+        <item>Hartmana</item>
+        <item>Skarżyńskiego</item>
+        <item>Kamień Jantarowa</item>
+        <item>Iwiny - Kolejowa</item>
+        <item>Nowowiejska</item>
+        <item>Łużycka</item>
+        <item>Siechnice - Staszica</item>
+        <item>Gajowa</item>
+        <item>ŻAR</item>
+        <item>JAKSONOWICE</item>
+        <item>OSOBOWICE</item>
+        <item>Łosice</item>
+        <item>Kamienna (Widna)</item>
+        <item>Wrocławski Park Przemysłowy</item>
+        <item>BROCHÓW</item>
+        <item>Gromadzka</item>
+        <item>Polanowicka</item>
+        <item>EPI</item>
+        <item>Stalowa</item>
+        <item>Tunelowa</item>
+        <item>Tczewska</item>
+        <item>Krępicka</item>
+        <item>DW. ŚWIEBODZKI</item>
+        <item>KAMIEŃSKIEGO (pętla)</item>
+        <item>Karłowicza</item>
+        <item>Inżynierska</item>
+        <item>Żerniki Wr. - Orla</item>
+        <item>Mielecka</item>
+        <item>Roweckiego</item>
+        <item>Dyrekcyjna</item>
+        <item>Zajezdnia Obornicka</item>
+        <item>Świętokrzyska</item>
+        <item>ROD Mieczyk</item>
+        <item>Jeleniogórska</item>
+        <item>Ibn Siny Avicenny</item>
+        <item>Poświęcka</item>
+        <item>Białych Goździków</item>
+        <item>SIECHNICE - OSIEDLE</item>
+        <item>Ożynowa</item>
+        <item>Tramwajowa</item>
+        <item>Borowa - Stacja PKP</item>
+        <item>Rakowiecka</item>
+        <item>KSIĘŻE MAŁE</item>
+        <item>Pasikurowice-Malinowa</item>
+        <item>TRZMIELOWICKA (Stacja kolejowa)</item>
+        <item>Damrota</item>
+        <item>Irysowa</item>
+        <item>Na Ostatnim Groszu</item>
+        <item>Azaliowa</item>
+        <item>Daszyńskiego</item>
+        <item>Hotel Wrocław</item>
+        <item>NOWY DWÓR (pętla)</item>
+        <item>KRZYKI</item>
+        <item>Kosmonautów (Nowe Żerniki)</item>
+        <item>pl. Orląt Lwowskich</item>
+        <item>Św. Katarzyna - Główna n ż</item>
+        <item>Pisarzowice - Odrzańska</item>
+        <item>Parafialna</item>
+        <item>Kowalska I</item>
+        <item>Januszkowice - Wierzbowa</item>
+        <item>BRZEZINA (pętla)</item>
+        <item>Chłodna</item>
+        <item>Wiejska</item>
+        <item>Wilkszyn - Polna</item>
+        <item>Kiełczów Ładna</item>
+        <item>Zaporoska</item>
+        <item>Wojanowska</item>
+        <item>Stabłowice</item>
+        <item>ZACHODNIA (Stacja kolejowa)</item>
+        <item>GAŁÓW (pętla)</item>
+        <item>Borowa - skrzyżowanie</item>
+        <item>Złotniki</item>
+        <item>Kowalska</item>
+        <item>ŁOZINA</item>
+        <item>Żmudzka</item>
+        <item>Park Tysiąclecia</item>
+        <item>Siechnice - CPN n ż</item>
+        <item>POŚWIĘCKA (Ośrodek zdrowia)</item>
+        <item>Wyszyńskiego</item>
+        <item>Park Zachodni</item>
+        <item>Nowy Dwór (Stacja kolejowa)</item>
+        <item>BLIZANOWICE</item>
+        <item>Dolmed</item>
+        <item>Bajana</item>
+        <item>Strzegomska 56</item>
+        <item>Brzezina - Chrobrego</item>
+        <item>Ziemniaczana</item>
+        <item>mosty Mieszczańskie</item>
+        <item>Kominiarska</item>
+        <item>Armii Krajowej</item>
+        <item>Wiśniowa</item>
+        <item>Raków - skrzyżowanie</item>
+        <item>Rysia</item>
+        <item>Świeradowska</item>
+        <item>Wołowska</item>
+        <item>Chełmońskiego</item>
+        <item>Inowrocławska</item>
+        <item>WAŁBRZYSKA</item>
+        <item>Racławicka (Gimnazjum nr 23)</item>
+        <item>Wilczyce - Wilczycka</item>
+        <item>Godebskiego (AWF Wrocław)</item>
+        <item>DŁUGA (Politechnika)</item>
+        <item>DWORCOWA</item>
+        <item>Sowia</item>
+        <item>Żernicka (Stacja kolejowa)</item>
+        <item>Budziwojowice</item>
+        <item>Marcepanowa</item>
+        <item>Gorlicka</item>
+        <item>pl. Strzegomski (Muzeum Współczesne)</item>
+        <item>ROD Bielany</item>
+        <item>Różanka</item>
+        <item>Biskupice Podgórne LG Chem</item>
+        <item>JARNOŁTÓW</item>
+        <item>Joannitów</item>
+        <item>Sucha</item>
+        <item>Jordanowska</item>
+        <item>Fiołkowa</item>
+        <item>LITEWSKA (pętla)</item>
+        <item>Gałów - ferma</item>
+        <item>Strumykowa</item>
+        <item>OSIEDLE SOBIESKIEGO (pętla)</item>
+        <item>Adamczewskich</item>
+        <item>Komandorska</item>
+        <item>Niedziałkowskiego</item>
+        <item>Odrodzenia Polski</item>
+        <item>Śliczna</item>
+        <item>ROD Tysiąclecia</item>
+        <item>Mirków - Wolności</item>
+        <item>Kromera (Czajkowskiego)</item>
+        <item>Szkolna</item>
+        <item>Kamieńskiego</item>
+        <item>Strachowicka</item>
+        <item>Gospodarska</item>
+        <item>Bielany - MAKRO</item>
+        <item>Kosmonautów (Szpital)</item>
+        <item>KOWALE</item>
+        <item>JERZMANOWO (Cmentarz I)</item>
+        <item>ZOO</item>
+        <item>Bojanowska</item>
+        <item>BARDZKA (Cmentarz)</item>
+        <item>Głogowska</item>
+        <item>Główna</item>
+        <item>Szczodre - Trzebnicka</item>
+        <item>Skała</item>
+        <item>Szkocka</item>
+        <item>Przyjaźni</item>
+        <item>DWORZEC NADODRZE</item>
+        <item>Okrzei</item>
+        <item>Działdowska</item>
+        <item>SPISKA (Ośrodek sportu)</item>
+        <item>MOKRY DWÓR</item>
+        <item>Bogusławice</item>
+        <item>Kutrzeby</item>
+        <item>Kotowice - Cmentarna</item>
+        <item>Buforowa</item>
+        <item>Paprotna</item>
+        <item>Małopanewska</item>
+        <item>Nowy Dwór</item>
+        <item>pl. Srebrny</item>
+        <item>Nyska</item>
+        <item>Kiełczówek</item>
+        <item>Kajdasza</item>
+        <item>Odolanowska</item>
+        <item>Orlińskiego</item>
+        <item>Zwycięska</item>
+        <item>Kościelna</item>
+        <item>Kadłubka</item>
+        <item>Uniwersytet Ekonomiczny</item>
+        <item>Mirków - Stadion</item>
+        <item>Pereca</item>
+        <item>JERZMANOWO (Cmentarz II)</item>
+        <item>Kętrzyńska</item>
+        <item>Dobroszycka</item>
+        <item>KOZANÓW</item>
+        <item>Hala Orbita</item>
+        <item>Starodębowa</item>
+        <item>Kmieca</item>
+        <item>Królewska</item>
+        <item>Śrubowa</item>
+        <item>RUBCZAKA (Stacja kolejowa)</item>
+        <item>Łozina - Milicka</item>
+        <item>Samotwór - Dębowa</item>
+        <item>Pola</item>
+        <item>Kotowice - Główna</item>
+        <item>Sanocka</item>
+        <item>DWORZEC AUTOBUSOWY</item>
+        <item>Groblice II-Kotowicka</item>
+        <item>Armii Krajowej (Bogedaina)</item>
+        <item>Chociebuska</item>
+        <item>Bierutowska 75</item>
+        <item>Wilkszyn - Miłoszyn</item>
+        <item>Trawowa</item>
+        <item>Wilkszyńska</item>
+        <item>Sulimów</item>
+        <item>PRACZE ODRZAŃSKIE (Stacja kolejowa)</item>
+        <item>GRABISZYŃSKA (Cmentarz)</item>
+        <item>MUCHOBÓR MAŁY (Stacja kolejowa)</item>
+        <item>Wilczyce - Szkoła</item>
+        <item>Centrum Zarządzania Kryzysowego</item>
+        <item>Monte Cassino</item>
+        <item>TARNOGAJ</item>
+        <item>Północna</item>
+        <item>Hutmen</item>
+        <item>Morwowa</item>
+        <item>Długołęka - Kościół</item>
+        <item>Biskupice Podgórne LG Innotek</item>
+        <item>Radwanice - Skrajna</item>
+        <item>Opera</item>
+        <item>Księska</item>
+        <item>Kamień II</item>
+        <item>Opatowicka nr 85</item>
+        <item>ROD Oświata</item>
+        <item>Domaszczyn - skrzyżowanie</item>
+        <item>Hermanowska</item>
+        <item>KRAKOWSKA (Centrum handlowe)</item>
+        <item>Widawa</item>
+        <item>Krucza (Mielecka)</item>
+        <item>ZAKRZÓW</item>
+        <item>BIELANY WROCŁAWSKIE</item>
+        <item>Krzelowska</item>
+        <item>Siechnice</item>
+        <item>Uniwersytet</item>
+        <item>IWINY - pętla</item>
+        <item>PILCZYCKA (Anima)</item>
+        <item>Bezpieczna</item>
+        <item>Popowice</item>
+        <item>Januszkowice</item>
+        <item>LEŚNICA</item>
+        <item>Kośnego</item>
+        <item>Zagłoby</item>
+        <item>Kochanowskiego</item>
+        <item>Małomicka</item>
+        <item>Psary - Szkoła</item>
+        <item>pl. Legionów</item>
+        <item>Długołęka - skrzyżowanie</item>
+        <item>Bociania</item>
+        <item>Koszarowa</item>
+        <item>Zielna</item>
+        <item>Krajobrazowa</item>
+        <item>Wojszycka</item>
+        <item>Głubczycka</item>
+        <item>Poleska</item>
+        <item>Os. Przyjaźni</item>
+        <item>Paulińska</item>
+        <item>Blizanowicka</item>
+        <item>Łozina - cmentarz</item>
+        <item>Bielany - PKP</item>
+        <item>Stabłowicka (Szkoła Podstawowa nr 22)</item>
+        <item>Iwiny - Polna</item>
+        <item>Jarnołtowska (Krzeptowska)</item>
+        <item>Jerzmanowo</item>
+        <item>OPORÓW</item>
+        <item>Bielany - Kościół</item>
+        <item>Tyrmanda</item>
+        <item>Miłoszycka</item>
+        <item>Rękodzielnicza</item>
+        <item>Raków</item>
+        <item>Na Szańcach</item>
+        <item>Wyższa Szkoła Bankowa</item>
+        <item>Magellana</item>
+        <item>STADION WROCŁAW (Królewiecka)</item>
+        <item>LUTYNIA</item>
+        <item>Jerzmanowska</item>
+        <item>Stadion Olimpijski</item>
+        <item>Swojczyce</item>
+        <item>Kołobrzeska</item>
+        <item>Lipska</item>
+        <item>Biestrzyków - skrzyżowanie</item>
+        <item>Pawłowice</item>
+        <item>Pasikurowice-Energetyczna</item>
+        <item>Bierutowska</item>
+        <item>Krzemieniecka</item>
+        <item>Mroźna</item>
+        <item>Oboźna</item>
+        <item>Kopańskiego</item>
+        <item>ROD Storczyk</item>
+        <item>Brücknera</item>
+        <item>Mokrzańska</item>
+        <item>Dąbrowica</item>
+        <item>Średzka</item>
+        <item>Siedlec-szkoła</item>
+        <item>Reja</item>
+        <item>Park Wschodni</item>
+        <item>Klimasa</item>
+        <item>Berenta</item>
+        <item>STĘPIN - pętla</item>
+        <item>Bukowskiego</item>
+        <item>Gądowianka</item>
+        <item>GAJ</item>
+        <item>Godzieszowa</item>
+        <item>Złotnicka</item>
+        <item>ŚLAZOWA (pętla)</item>
+        <item>Drzewieckiego</item>
+        <item>Las Ratyński</item>
+        <item>Wilczyce</item>
+        <item>Transbud</item>
+        <item>RACŁAWICKA (pętla)</item>
+        <item>Braterska</item>
+        <item>Dolnośląska Szkoła Wyższa</item>
+        <item>Stadion Wrocław (Lotnicza)</item>
+        <item>Jędrzejowska</item>
+        <item>Krępicka - szkoła</item>
+        <item>Centrostal</item>
+        <item>pl. Bema</item>
+        <item>Gałczyńskiego</item>
+        <item>Grunwaldzka</item>
+        <item>Jarocińska</item>
+        <item>Karwińska</item>
+        <item>Zakrzowska</item>
+        <item>DH Astra</item>
+        <item>Zagłębiowska</item>
+        <item>PETRUSEWICZA</item>
+        <item>Obornicka (Obwodnica)</item>
+        <item>Gęsia</item>
+        <item>STARODWORSKA (ZUW)</item>
+        <item>KIEŁCZOWSKA (LZN)</item>
+        <item>Borowska</item>
+        <item>Gazowa</item>
+        <item>HALLERA</item>
+        <item>PSIE POLE (Stacja kolejowa)</item>
+        <item>Las Osobowicki</item>
+        <item>Graniczna (Strachowicka)</item>
+        <item>Park Stabłowicki</item>
+        <item>Stanki</item>
+        <item>Volvo - brama II</item>
+        <item>Kotowice II-Spacerowa/Leśna</item>
+        <item>Długołęka - SELGROS</item>
+        <item>Długołęka - Wrocławska</item>
+        <item>Węgrów</item>
+        <item>Końcowa</item>
+        <item>Komuny Paryskiej</item>
+        <item>Wilkszyn (pętla)</item>
+        <item>Pisarzowice - Kolejowa</item>
+        <item>Wojnów</item>
+        <item>KOZANÓW (Dokerska)</item>
+        <item>KOSZAROWA (Szpital)</item>
+        <item>Brodnicka</item>
+        <item>Św. Katarzyna - Żernicka</item>
+        <item>9 Maja</item>
+        <item>Skwerowa</item>
+        <item>POŚWIĘTNE</item>
+        <item>Miodowa</item>
+        <item>Monopolowa</item>
+        <item>Kiełczów ""Biedronka""</item>
+        <item>Kośnego1</item>
+        <item>Bukowina</item>
+        <item>Pisarzowice - Graniczna</item>
+        <item>most Grunwaldzki</item>
+        <item>Lekarska</item>
+        <item>WOJANOWSKA (pętla)</item>
+        <item>Wrocławski Park Technologiczny</item>
+        <item>Suwalska</item>
+        <item>Ługowa</item>
+        <item>Gwiaździsta</item>
+        <item>Kiełczowska</item>
+        <item>Janówek</item>
+        <item>KŁOKOCZYCE (pętla)</item>
+        <item>Sąsiedzka</item>
+        <item>Piłsudskiego</item>
+        <item>Sztabowa</item>
+        <item>Lutynia Osiedle</item>
+        <item>Graniczna</item>
+        <item>Kiełczów - Mleczna</item>
+        <item>Pawłowicka</item>
+        <item>Iwiny (Rondo)</item>
+        <item>WOJNÓW (pętla)</item>
+        <item>GRABISZYNEK</item>
+        <item>Brzezia Łąka - cmentarz</item>
+        <item>LEŚNICA - Hermes</item>
+        <item>Gałów - Przedszkole</item>
+        <item>Zarembowicza</item>
+        <item>Radwanice - Mickiewicza</item>
+        <item>Brochowska</item>
+        <item>pl. Zgody</item>
+        <item>ROD Zgoda</item>
+        <item>Racławicka</item>
+        <item>MIŃSKA (Rondo Rotm. Pileckiego)</item>
+        <item>Trestno</item>
+        <item>Zimowa</item>
+        <item>OPATOWICE</item>
+        <item>PIECOWICE</item>
+        <item>Piastowska</item>
+        <item>Kwidzyńska</item>
+        <item>GAJ - pętla</item>
+        <item>Adamieckiego</item>
+        <item>Kościuszki</item>
+        <item>Małopolska (Ośrodek dla niewidomych)</item>
+        <item>Młodych Techników</item>
+        <item>Prusa</item>
+        <item>Św. Katarzyna - Główna</item>
+        <item>Grudziądzka</item>
+        <item>KLECINA</item>
+        <item>Jedności Narodowej</item>
+        <item>PSARY</item>
+        <item>Wojszyce</item>
+        <item>Kozia</item>
+        <item>Siechnice - Zacisze</item>
+        <item>Libelta</item>
+        <item>SAMOTWÓR-PAŁAC</item>
+        <item>BISKUPIN</item>
+        <item>Grawerska</item>
+        <item>Przystankowa</item>
+        <item>Byków</item>
+        <item>Kiełczów (pętla)/Wrocławska</item>
+        <item>Wielkopolska</item>
+        <item>Jarzębinowa</item>
+        <item>Św. Katarzyna - szpital</item>
+        <item>Brzezińska</item>
+        <item>Bulwar Dedala</item>
+        <item>Mydlice II</item>
+        <item>Radomierzyce</item>
+        <item>PORT LOTNICZY</item>
+        <item>Wysoka Osiedle</item>
+        <item>Zajezdnia BOREK</item>
+        <item>Mickiewicza</item>
+        <item>Wysoka-Chabrowa</item>
+        <item>Krępice</item>
+        <item>Krynicka</item>
+        <item>Długołęka - Volvo</item>
+        <item>Królewiecka</item>
+        <item>ŚWINIARY (pętla)</item>
+        <item>Psary - Parkowa</item>
+        <item>Świstackiego</item>
+        <item>Groblice - Kolejowa</item>
+        <item>Dobroszów</item>
+        <item>Ozorzyce-Krasińskiego</item>
+        <item>MULICKA</item>
+        <item>Rubczaka</item>
+        <item>SOŁTYSOWICE</item>
+        <item>Złotostocka</item>
+        <item>Kątowa</item>
+        <item>Park Staromiejski</item>
+        <item>Poprzeczna</item>
+        <item>Radwanice - Dębowa</item>
+        <item>Siechnice - Wiadukt</item>
+        <item>Kowieńska</item>
+        <item>Wilczyce - Sosnowa</item>
+        <item>Psie Pole</item>
+        <item>Jabłeczna</item>
+        <item>Maślicka - Osiedle</item>
+        <item>Szybowcowa</item>
+        <item>Ogród Botaniczny</item>
+        <item>Gajowicka</item>
+        <item>Bierzyce</item>
+        <item>Orla</item>
+        <item>Borowa - szkoła</item>
+        <item>Drukarska</item>
+        <item>Pl. SOLIDARNOŚCI</item>
+        <item>Konduktorska</item>
+        <item>Pietrzykowice</item>
+        <item>Śnieżna</item>
+        <item>Zaprężyn</item>
+        <item>Bierzyce - wieś</item>
+        <item>Szkoła Żerniki</item>
+        <item>Wysoka-Radosna</item>
+        <item>Tokary - osiedle</item>
+        <item>Piwnika - Ponurego</item>
+        <item>KIEŁCZÓW (pętla)</item>
+        <item>Malinowa</item>
+        <item>Pasikurowice-cmentarz</item>
+        <item>Siedlec-skrzyżowanie</item>
+        <item>Łozina - Wrocławska</item>
+        <item>Oławska</item>
+        <item>Wallenroda</item>
+        <item>DOMASZCZYN</item>
+        <item>Kiełczów - Boczna</item>
+        <item>Turoszowska</item>
+        <item>JANÓWEK (WOŚ)</item>
+        <item>Olsztyńska</item>
+        <item>Krakowska</item>
+        <item>Kotowice - Ogrodowa</item>
+        <item>Żerniki Wr. - Kolejowa</item>
+        <item>Jaworowa</item>
+        <item>Husarska</item>
+        <item>Kowalska 56</item>
+        <item>KUŹNIKI</item>
+        <item>Twardogórska</item>
+        <item>Krasińskiego</item>
+        <item>Skarbowców</item>
+        <item>Ostowa</item>
+        <item>POCZTA POLSKA</item>
+        <item>Czajkowskiego</item>
+        <item>Arabska</item>
+        <item>Hala Targowa</item>
+        <item>Wysoka</item>
+        <item>Zemska</item>
+        <item>Pruszowice - las</item>
+        <item>Samotworska</item>
+        <item>Bielawa</item>
+        <item>Kępińska</item>
+        <item>Bielany - skrzyżowanie</item>
+        <item>Śliwowa</item>
+        <item>KSIĘŻE WIELKIE</item>
+        <item>ROD Pod Dębem</item>
+        <item>Stępin</item>
+        <item>Bałtycka (Szkolny)</item>
+        <item>Hippiczna</item>
+        <item>Opolska</item>
+        <item>Długołęka - Nowy Urząd</item>
+        <item>Radio i Telewizja</item>
+        <item>Kominiarska-plac sportowy</item>
+        <item>Rymarska</item>
+        <item>Zajezdnia OŁBIN</item>
+        <item>ZĘBICE - pętla</item>
+        <item>RĘDZIŃSKA</item>
+        <item>Orzechowa</item>
+        <item>Szczodre - stawy</item>
+        <item>Gajowicka (Gimnazjum nr 23)</item>
+        <item>Brzezia Łąka - Lipowa</item>
+        <item>Zielińskiego</item>
+        <item>Niedźwiedzia</item>
+        <item>Szewczenki</item>
+        <item>Mokra</item>
+        <item>Malwowa</item>
+        <item>Wita Stwosza</item>
+        <item>Zalewowa</item>
+        <item>Uniwersytecka</item>
+        <item>Pl. Hirszfelda</item>
+        <item>Bielany - Boczna</item>
+        <item>Pasikurowice - n/ż</item>
+        <item>Wilczyce - Dębowa</item>
+        <item>Kiełczówek - pętla</item>
+        <item>Zagrodnicza</item>
+        <item>Kowale (Stacja kolejowa)</item>
+        <item>Bierdzany</item>
+        <item>Ciechocińska</item>
+        <item>Trzebnicka</item>
+        <item>Radwanice - Poprzeczna</item>
+        <item>Łozina - Nowego Osiedla II</item>
+        <item>Tokary</item>
+        <item>SIECHNICE - TIM</item>
+        <item>Kiełczów - Sielska Dolina</item>
+        <item>Grochowa</item>
+        <item>Biskupice Podgórne Dong Seo/Dong Yang</item>
+        <item>Grabowa</item>
+        <item>Katedra</item>
+        <item>Bielany - Kwiatowa</item>
+        <item>Szczodre - Szkoła</item>
+        <item>Wielka</item>
+        <item>Długa</item>
+        <item>Kwiatkowskiego</item>
+        <item>BIERUTOWSKA (Ośrodek zdrowia)</item>
+        <item>Eluarda</item>
+        <item>Warmińska</item>
+        <item>POPOWICE (Stacja kolejowa)</item>
+        <item>KLECINA (Stacja kolejowa)</item>
+        <item>Pustecka</item>
+        <item>Międzyrzecka</item>
+        <item>Arena</item>
+        <item>Brzezina - Kościół</item>
+        <item>Płońskiego</item>
+        <item>Park Szczytnicki</item>
+        <item>Poczta Główna</item>
+        <item>BIEŃKOWICE</item>
+        <item>Żernicka</item>
+        <item>Zajezdnia GAJ</item>
+        <item>Strachowskiego</item>
+        <item>Zębice - Prusa</item>
+        <item>ŚWIDNICKA (Dom Europy)</item>
+        <item>Stanisławowska</item>
+        <item>Aleja Wędrowców</item>
+        <item>Moniuszki</item>
+        <item>Chopina</item>
+        <item>Ramiszów-kolonia</item>
+        <item>Chwałkowska</item>
+        <item>RATYŃ</item>
+        <item>BROCHÓW (Stacja kolejowa)</item>
+        <item>Wełniana</item>
+        <item>Kiełczowska (Cmentarz)</item>
+        <item>Semaforowa</item>
+        <item>Żerniki</item>
+        <item>Dolnobrzeska</item>
+        <item>Owczarska</item>
+        <item>Pracze Widawskie</item>
+        <item>Jagodno</item>
+        <item>Kozanowska</item>
+        <item>Przybyszewskiego</item>
+        <item>Słoneczna</item>
+        <item>Św. Katarzyna - Parkowa</item>
+        <item>Kiełczów - Wrocławska</item>
+        <item>METALOWCÓW (Ośrodek sportu)</item>
+        <item>Gałowska</item>
+        <item>Lamowice</item>
+        <item>Połabian</item>
+        <item>Nowy Dom</item>
+        <item>Wilczyce - stary młyn</item>
+        <item>Przybyły</item>
+        <item>Inflancka</item>
+        <item>Siechnice - Ogrodnictwo</item>
+        <item>Starodworska</item>
+        <item>Kamieńskiego (Szpital)</item>
+        <item>TYNIECKA (pętla)</item>
+        <item>Brzezinka Średzka - Główna</item>
+        <item>Rondo Obrońców Grodna</item>
+        <item>Maślicka</item>
+        <item>Iwiny - Brochowska</item>
+        <item>Kiełczów Sosnowa</item>
+        <item>Żelazna</item>
+        <item>Domaszczyn - sklep</item>
+        <item>Muchobór Wielki</item>
+        <item>KOSZAROWA (Uniwersytet)</item>
+        <item>Marszowice</item>
+        <item>Św. Katarzyna - stacja</item>
+        <item>Łososiowicka</item>
+        <item>Volvo</item>
+        <item>Sołtysowicka</item>
+        <item>Michałowice</item>
+        <item>Kąty Wilczyckie</item>
+        <item>ŻERNIKI WROCŁAWSKIE</item>
+        <item>Byków - Lange</item>
+        <item>Godzieszowa - stajnia</item>
+        <item>BARTOSZOWICE (pętla)</item>
+        <item>Kolejowa</item>
+        <item>Zaprężyn - skrzyżowanie</item>
+        <item>Kwiatkowskiego (Rondo)</item>
+        <item>Wawrzyniaka</item>
+        <item>Kiełczów - Zgodna</item>
+        <item>Byków - Bar</item>
+        <item>Pisarzowice - Szkolna</item>
+        <item>Zajączkowska</item>
+        <item>Mochnackiego</item>
+        <item>Pruszowice - wieś</item>
+        <item>Hynka</item>
+        <item>Nowodworska</item>
+        <item>Szymanów - skrzyż.</item>
+        <item>Bąków</item>
+        <item>Ślusarska</item>
+        <item>Zgorzelisko</item>
+        <item>Opatowicka nr 59</item>
+        <item>Tyniecka</item>
+        <item>Uniwersytet Medyczny</item>
+        <item>ROD Źródło Zdrowia</item>
+        <item>Rogowska</item>
+        <item>Łozina - Ośrodek zdrowia</item>
+        <item>KRZYŻANOWICE</item>
+        <item>AUCHAN</item>
+        <item>Kiełczów - osiedle</item>
+        <item>Iwiny - Słoneczna</item>
+        <item>Psie Pole (Gorlicka)</item>
+        <item>Biskupice Podgórne LG Display</item>
+        <item>OSOBOWICE (Stacja kolejowa)</item>
+        <item>Robotnicza (Centrozłom)</item>
+        <item>JERZMANOWO (pętla)</item>
+        <item>PAWŁOWICE (Widawska)</item>
+        <item>TRESTNO (pętla)</item>
+        <item>BLACHARSKA</item>
+        <item>ZABRODZIE</item>
+    </string-array>
+
+</resources>

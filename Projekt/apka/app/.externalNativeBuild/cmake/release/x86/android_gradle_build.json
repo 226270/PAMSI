@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/home/aleksandra/Dokumenty/PAMSI/Projekt/apka/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/aleksandra/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/aleksandra/Dokumenty/PAMSI/Projekt/apka/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/aleksandra/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/aleksandra/Dokumenty/PAMSI/Projekt/apka/app/.externalNativeBuild/cmake/release/x86 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/aleksandra/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/aleksandra/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86  -Dnative_lib_EXPORTS -isystem /home/aleksandra/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/aleksandra/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/aleksandra/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/aleksandra/Dokumenty/PAMSI/Projekt/apka/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/aleksandra/Dokumenty/PAMSI/Projekt/apka/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/home/aleksandra/Dokumenty/PAMSI/Projekt/apka/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "6167531768712244481"
+		}
+	},
+	"toolchains" : 
+	{
+		"6167531768712244481" : 
+		{
+			"cCompilerExecutable" : "/home/aleksandra/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/aleksandra/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
