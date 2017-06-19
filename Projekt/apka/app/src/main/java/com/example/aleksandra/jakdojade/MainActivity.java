@@ -1,5 +1,7 @@
 package com.example.aleksandra.jakdojade;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -17,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     String [] Bus_stops;
     AutoCompleteTextView textViewStart, textViewStop;
     EditText editTextStart, editTextStop;
+    Context context;
 
 
     @Override
@@ -69,6 +72,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void Wyszukaj(View view) {
         Toast.makeText(MainActivity.this, "No hejo!!!", Toast.LENGTH_SHORT).show();
+        context = getApplicationContext();
+        Intent intent = new Intent(context, Trasa.class);
+        startActivity(intent);
     }
 
     /**
